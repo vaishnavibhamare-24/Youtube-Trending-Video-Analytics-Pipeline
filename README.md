@@ -1,15 +1,14 @@
-
-YouTube Trending Video Analytics Pipeline
+# YouTube Trending Video Analytics Pipeline
 
 Python · SQL · Streamlit · Pandas · Matplotlib
 
 This project delivers a complete end-to-end analytics pipeline designed to process and analyze 37,000+ YouTube trending video records. It integrates automated ETL workflows, optimized SQL queries, and a real-time interactive dashboard to help track engagement patterns and category-level trends with high accuracy.
 
-🔍 Project Overview
+## 🔍 Project Overview
 
 The goal of this project is to turn raw, semi-structured YouTube trending datasets into clean, query-ready data and provide actionable insights through an interactive Streamlit dashboard. The pipeline reduces manual reporting workloads, improves data consistency, and enables real-time exploration of trends such as view spikes, category popularity, and engagement ratios.
 
-🔧 Key Contributions
+## 🔧 Key Contributions
 1. Engineered a Scalable ETL Pipeline
 
 Ingested and processed 37k+ records across multiple categories and timelines.
@@ -40,7 +39,7 @@ Daily spikes in trending videos
 
 Reduced manual reporting and analysis work by 80%.
 
-🧱 System Architecture
+## 🧱 System Architecture
 Raw Data → Python ETL (Extract → Transform → Load) → SQLite DB → Streamlit Dashboard
 
 
@@ -53,7 +52,7 @@ SQLite database with well-defined schema, optimized indices, and reusable SQL qu
 Visualization Layer:
 Streamlit + Matplotlib visual analytics for real-time trend exploration.
 
-📂 Project Structure
+## 📂 Project Structure
 ├── etl/
 │   ├── extract.py
 │   ├── transform.py
@@ -68,7 +67,7 @@ Streamlit + Matplotlib visual analytics for real-time trend exploration.
 │   ├── processed/
 ├── README.md
 
-▶️ How to Run
+## ▶️ How to Run
 1. Install Dependencies
 pip install -r requirements.txt
 
@@ -80,7 +79,7 @@ python etl/load.py
 3. Launch the Dashboard
 streamlit run dashboard/app.py
 
-📊 Example Insights (Displayed in Dashboard)
+## 📊 Example Insights (Displayed in Dashboard)
 
 Categories with the highest trending frequency
 
@@ -92,7 +91,7 @@ Daily distribution of trending uploads
 
 Category momentum analysis
 
-💼 Why This Project Matters
+## 💼 Why This Project Matters
 
 This project demonstrates:
 
@@ -107,4 +106,5 @@ Skill in building interactive data applications
 End-to-end workflow thinking (data → processing → analytics)
 
 Perfect for roles involving Data Analytics, Data Engineering, BI Development, or ML Data Pipelines.
+
 Author - Vaishnavi Bhamare
