@@ -11,45 +11,45 @@ The goal of this project is to turn raw, semi-structured YouTube trending datase
 ## 🔧 Key Contributions
 1. Engineered a Scalable ETL Pipeline
 
-Ingested and processed 37k+ records across multiple categories and timelines.
+A) Ingested and processed 37k+ records across multiple categories and timelines.
 
-Cleaned and standardized inconsistent JSON/CSV formats using Pandas.
+B) Cleaned and standardized inconsistent JSON/CSV formats using Pandas.
 
-Automated extraction, transformation, and loading using modular Python scripts.
+C) Automated extraction, transformation, and loading using modular Python scripts.
 
 2. SQL Optimization & Performance Improvements
 
-Designed a structured SQLite database for analytics workloads.
+A) Designed a structured SQLite database for analytics workloads.
 
-Created indexed tables and optimized join operations, improving performance by ~40%.
+B) Created indexed tables and optimized join operations, improving performance by ~40%.
 
-Automated loading of transformed data into SQL to ensure reproducibility.
+C) Automated loading of transformed data into SQL to ensure reproducibility.
 
 3. Real-Time Analytics Dashboard (Streamlit)
 
-Built an interactive dashboard displaying:
+A) Built an interactive dashboard displaying:
 
-View count growth
+B) View count growth
 
-Likes & comment engagement
+C) Likes & comment engagement
 
-Category-level trending patterns
+D) Category-level trending patterns
 
-Daily spikes in trending videos
+E) Daily spikes in trending videos
 
-Reduced manual reporting and analysis work by 80%.
+F) Reduced manual reporting and analysis work by 80%.
 
 ## 🧱 System Architecture
 Raw Data → Python ETL (Extract → Transform → Load) → SQLite DB → Streamlit Dashboard
 
 
-ETL Layer:
+1. ETL Layer:
 Pandas scripts for cleaning, normalization, merging category files, handling duplicates, and preparing metrics.
 
-Database Layer:
+2. Database Layer:
 SQLite database with well-defined schema, optimized indices, and reusable SQL queries.
 
-Visualization Layer:
+3. Visualization Layer:
 Streamlit + Matplotlib visual analytics for real-time trend exploration.
 
 ## 📂 Project Structure
