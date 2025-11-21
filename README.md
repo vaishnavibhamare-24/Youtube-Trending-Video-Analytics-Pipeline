@@ -1,6 +1,6 @@
 # YouTube Trending Video Analytics Pipeline
 
-Python · SQL · Streamlit · Pandas · Matplotlib
+### SKILLS: Python · SQL · Streamlit · Pandas · Matplotlib
 
 This project delivers a complete end-to-end analytics pipeline designed to process and analyze 37,000+ YouTube trending video records. It integrates automated ETL workflows, optimized SQL queries, and a real-time interactive dashboard to help track engagement patterns and category-level trends with high accuracy.
 
