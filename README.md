@@ -107,4 +107,4 @@ End-to-end workflow thinking (data → processing → analytics)
 
 Perfect for roles involving Data Analytics, Data Engineering, BI Development, or ML Data Pipelines.
 
-Author - Vaishnavi Bhamare
+### Author - Vaishnavi Bhamare
